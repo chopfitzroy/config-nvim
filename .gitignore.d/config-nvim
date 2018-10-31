@@ -1,0 +1,12 @@
+*
+!/.gitignore.d
+!/.gitignore.d/config-nvim
+!/.config
+!/.config/nvim
+!/.config/nvim/commands.vim
+!/.config/nvim/config.vim
+!/.config/nvim/init.vim
+!/.config/nvim/mappings.vim
+!/.config/nvim/settings.vim
+!/.config/nvim/snippets
+!/.config/nvim/snippets/javascript.snip

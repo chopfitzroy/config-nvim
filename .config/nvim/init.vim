@@ -22,7 +22,7 @@ Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/deoplete.nvim', { 'tag': '4.0-serial', 'do': ':UpdateRemotePlugins' }
 Plug 'mhartington/nvim-typescript'
 " Code linting
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
 " Manipulations
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-surround'

@@ -18,8 +18,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'Shougo/neosnippet.vim'
 " Omni completion
-" Locked tag https://github.com/mhartington/nvim-typescript/issues/115
-Plug 'Shougo/deoplete.nvim', { 'tag': '4.0-serial', 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/deoplete.nvim' 
 Plug 'mhartington/nvim-typescript'
 " Code linting
 " Plug 'w0rp/ale'
@@ -41,6 +40,8 @@ Plug 'pangloss/vim-javascript'
 Plug 'HerringtonDarkholme/yats.vim'
 " JSX (React)
 Plug 'mxw/vim-jsx'
+" Vue
+Plug 'posva/vim-vue'
 " HTML
 Plug 'othree/html5.vim'
 " CSS
@@ -52,8 +53,6 @@ Plug 'sbdchd/neoformat'
 Plug 'tommcdo/vim-lion'
 " Status bar
 Plug 'vim-airline/vim-airline'
-" Misc
-Plug 'tpope/vim-eunuch'
 
 call plug#end()
 

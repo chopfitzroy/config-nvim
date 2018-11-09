@@ -1,6 +1,6 @@
 " Use space for something usefule
 " https://groups.google.com/forum/m/#!msg/vim_dev/fm1a0B77yYo/qZ8WfrYamREJ
-let mapleader="\<space>"
+"let mapleader="\<space>"
 
 " Emmet expand key
 let g:user_emmet_expandabbr_key = '<C-e>'
@@ -30,10 +30,10 @@ nmap <leader>o :UndotreeToggle <cr>
 nmap <leader>r :set autoread <cr> :checkt <cr>
 
 " Window resize
-map <C-Left> <C-w>5>
-map <C-Right> <C-w>5<
-map <C-Up> <C-w>5+
-map <C-Down> <C-w>5-
+map <C-Left> :vsp <cr> <C-w><Left>
+map <C-Right> :vsp <cr> <C-w><Right>
+map <C-Up> :sp <cr> <C-w><Up>
+map <C-Down> :sp <cr> <C-w><Down>
 
 " Window navigation
 nmap <Left> <C-w><Left>
@@ -42,8 +42,8 @@ nmap <Up> <C-w><Up>
 nmap <Down> <C-w><Down>
 
 " Location windows
-nmap <Leader>,o :lopen<CR>
-nmap <Leader>,c :lclose<CR>
-nmap <Leader>,e :ll<CR>
-nmap <Leader>,n :lnext<CR>
-nmap <Leader>,p :lprev<CR>
+"nmap <Leader>,o :lopen<CR>
+"nmap <Leader>,c :lclose<CR>
+"nmap <Leader>,e :ll<CR>
+"nmap <Leader>,n :lnext<CR>
+"nmap <Leader>,p :lprev<CR>

@@ -8,5 +8,6 @@
 !/.config/nvim/init.vim
 !/.config/nvim/mappings.vim
 !/.config/nvim/settings.vim
+!/.config/nvim/variables.vim
 !/.config/nvim/snippets
-!/.config/nvim/snippets/javascript.snip
+!/.config/nvim/snippets/*.snip

@@ -10,7 +10,8 @@ set background=dark
 set fillchars+=vert:\ 
 
 " Configure dropdown menu
-set completeopt=longest,menuone,preview
+" set completeopt=longest,menuone,preview
+set completeopt=menu,menuone,preview,noselect,noinsert
 
 " Don't clear commands to clear manually use esc
 set notimeout

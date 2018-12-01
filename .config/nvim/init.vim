@@ -1,3 +1,6 @@
+" Import global variables (plugins)
+source ~/.config/nvim/variables.vim
+
 " Automatic install
 " https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
@@ -9,35 +12,34 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Theme
-" https://trevordmiller.com/projects/nova
 Plug 'trevordmiller/nova-vim'
+" See https://github.com/neovim/neovim/issues/7544 in regards to indent guides
 " Fuzzy Finder
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 " Code completion
 Plug 'mattn/emmet-vim'
 Plug 'Shougo/neosnippet.vim'
-" Omni completion
-Plug 'Shougo/deoplete.nvim' 
-Plug 'mhartington/nvim-typescript'
-" Code linting
-" Plug 'w0rp/ale'
+" Code linting / Omnicompletion / Formatting
+Plug 'w0rp/ale'
 " Manipulations
-Plug 'Raimondi/delimitMate'
+Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+" Formatting
+Plug 'junegunn/vim-easy-align'
 " History views
 Plug 'junegunn/vim-peekaboo'
 Plug 'mbbill/undotree'
 " Interface
-Plug 'nathanaelkane/vim-indent-guides'
 Plug 'brettanomyces/nvim-terminus'
 Plug 'justinmk/vim-dirvish'
-" Language Support (Highlighting)
+" Status bar
+Plug 'vim-airline/vim-airline'
 " Javascript
 Plug 'pangloss/vim-javascript'
 " TypeScript
-Plug 'HerringtonDarkholme/yats.vim'
+Plug 'leafgarland/typescript-vim'
 " JSX (React)
 Plug 'mxw/vim-jsx'
 " Vue
@@ -48,11 +50,6 @@ Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 " GQL
 Plug 'jparise/vim-graphql'
-" Formatting
-Plug 'sbdchd/neoformat'
-Plug 'tommcdo/vim-lion'
-" Status bar
-Plug 'vim-airline/vim-airline'
 
 call plug#end()
 

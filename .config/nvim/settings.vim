@@ -13,9 +13,6 @@ set fillchars+=vert:\
 " set completeopt=longest,menuone,preview
 set completeopt=menu,menuone,preview,noselect,noinsert
 
-" Don't clear commands to clear manually use esc
-set notimeout
-
 " Fix safe writes
 set backupcopy=yes
 
@@ -66,6 +63,9 @@ set foldlevel=1
 
 " Show command in bottom right
 set showcmd
+
+" Don't clear commands to clear manually use esc
+set notimeout
 
 " Retain termail buffers when using :q
 " https://github.com/neovim/neovim/issues/5431

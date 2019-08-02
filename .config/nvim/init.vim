@@ -21,7 +21,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'Shougo/neosnippet.vim'
 " Code linting / Omnicompletion / Formatting
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
 " Manipulations
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-surround'

@@ -12,7 +12,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Theme
-Plug 'trevordmiller/nova-vim'
+Plug 'arcticicestudio/nord-vim'
 " See https://github.com/neovim/neovim/issues/7544 in regards to indent guides
 " Fuzzy Finder
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -54,13 +54,13 @@ Plug 'jparise/vim-graphql'
 call plug#end()
 
 " Colorscheme
-silent! colorscheme nova
+silent! colorscheme nord
 
 " Editor Settings
 source ~/.config/nvim/settings.vim
 
 " Custom commands
-source ~/.config/nvim/commands.vim
+" source ~/.config/nvim/commands.vim
 
 " Plugin Config
 source ~/.config/nvim/config.vim

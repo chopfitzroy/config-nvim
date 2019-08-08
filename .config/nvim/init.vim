@@ -60,7 +60,7 @@ silent! colorscheme nord
 source ~/.config/nvim/settings.vim
 
 " Custom commands
-" source ~/.config/nvim/commands.vim
+source ~/.config/nvim/commands.vim
 
 " Plugin Config
 source ~/.config/nvim/config.vim

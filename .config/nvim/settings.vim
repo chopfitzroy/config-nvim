@@ -71,9 +71,14 @@ set notimeout
 " https://github.com/neovim/neovim/issues/5431
 set hidden
 
+" Disable swaps (FZF bug)
+" https://github.com/junegunn/fzf/issues/1365
+" Should be okay given I enable 'Safe saving' in config
+set noswapfile
+
 " Centralize backups
 set backupdir=~/.config/nvim/backups
-set directory=~/.config/nvim/swaps
+" set directory=~/.config/nvim/swaps
 if exists("&undodir")
   set undodir=~/.config/nvim/undo
 endif

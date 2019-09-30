@@ -29,7 +29,7 @@ nmap <leader>o :UndotreeToggle <cr>
 " Reload from disk
 nmap <leader>r :set autoread <cr> :checkt <cr>
 
-" Window resize
+" Window splits
 map <C-Left> :vsp <cr> <C-w><Left>
 map <C-Right> :vsp <cr> <C-w><Right>
 map <C-Up> :sp <cr> <C-w><Up>
@@ -40,6 +40,12 @@ nmap <Left> <C-w><Left>
 nmap <Right> <C-w><Right>
 nmap <Up> <C-w><Up>
 nmap <Down> <C-w><Down>
+
+
+" Fast resize
+" https://vim.fandom.com/wiki/Resize_splits_more_quickly
+nmap <leader>= :exe "resize " . (winheight(0) * 2)<cr>
+nmap <leader>- :exe "resize " . (winheight(0) * 1/2)<cr>
 
 " Location windows
 "nmap <Leader>,o :lopen<CR>
